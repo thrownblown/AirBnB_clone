@@ -15,27 +15,35 @@ button.search {
 	border-radius: 4px;
 	margin: auto 30px auto auto;
 }
-	/*change opacity to 90% when the mouse is on the button*/
+
 button.search:hover { 
-    opacity: 0.9;
+	opacity: 0.9;
 }
-.filter > div {
+
+.filters > div {
+	display: flex;
+	flex-direction: column;
 	height: 100%;
 	width: 25%;
-
 }
 
-/*
+.filters >div:nth-child(1) {
+	border-right: 1px solid #DDDDDD;
+}
 
-height: 100% of the section filters
-width: 25% of the section filters
-border right #DDDDDD 1px only for the first left filter
-contains a title:
-tag: h3
-font weight: 600
-text States or Amenities
-contains a subtitle:
-tag: h4
-font weight: 400
-font size: 14px
-text with fake contents*/
+h3, h4 {
+	margin-left: 30px;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-weight: 600;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 30 auto;
+}
