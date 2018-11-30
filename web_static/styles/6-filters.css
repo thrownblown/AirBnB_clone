@@ -32,10 +32,7 @@ button.search:hover {
 }
 
 h3, h4 {
-	margin-left: 30px;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 0px;
+	margin: 10px auto 0px 30px;
 }
 
 h3 {
@@ -67,7 +64,7 @@ ul.popover {
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	padding: 10px 0px 30px 0px;
-	margin: 12px 0px 0px 0px;
+	margin: 14px 0px 0px 0px;
 	visibility: hidden;
 	z-index: 999;
 }
@@ -84,6 +81,3 @@ ul.popover {
 .filters > div:hover ul.popover{
 	visibility: visible;
 }
-/*ul.popover li{
-    display: block;
-}*/
