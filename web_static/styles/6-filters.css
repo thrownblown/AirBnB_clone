@@ -58,16 +58,18 @@ ul {
 li {
 	width: 50%;
 	margin: 5px 0px;
+	padding-left: 10px;
 }
 
-ul.popover{
+ul.popover {
 	width: 100%;
     background: #FAFAFA;
     left: 0;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	padding: 0px 0px 30px 0px;
-	margin: 12px 0px 0px 0px
+	padding: 10px 0px 30px 0px;
+	margin: 12px 0px 0px 0px;
+	visibility: hidden;
 }
 
 .popover > li {
@@ -76,12 +78,12 @@ ul.popover{
 
 .popover > h2 {
 	display: flex;
-	margin: 10px 30px 10px 30px;
+	margin: 0px 30px 0px 30px;
 }
 
-/*.filters > div:hover ul.popover{
-    display: block;
+.filters > div:hover ul.popover{
+	visibility: visible;
 }
-ul.popover li{
+/*ul.popover li{
     display: block;
 }*/
