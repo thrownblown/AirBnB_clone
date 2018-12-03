@@ -64,9 +64,10 @@ ul.popover {
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	padding: 10px 0px 30px 0px;
-	margin: 14px 0px 0px 0px;
+	margin: 15px 0px 0px 0px;
 	visibility: hidden;
 	z-index: 999;
+	box-sizing: border-box;
 }
 
 .popover > li {
