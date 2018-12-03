@@ -1,3 +1,9 @@
+.places {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .places > article {
 	width: 390px;
 	border-radius: 4px;
@@ -6,11 +12,14 @@
 	display: inline-block;
 	margin: 15px 20px;
 	position: relative;
+	flex-grow: 0;
 }
 
 .places > h1 {
 	text-align: left;
 	vertical-align: top;
+	min-width: -webkit-fill-available;
+	margin-left: 15px;
 }
 
 .places article > h2 {
@@ -76,4 +85,12 @@
 
 .icon_bath {
 	content: url("../images/icon_bath.png");
+}
+
+.user {
+	padding: 15px 15px 0px 15px;
+}
+
+.description {
+	padding: 10px 15px 15px 15px;
 }
